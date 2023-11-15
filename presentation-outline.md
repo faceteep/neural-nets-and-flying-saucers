@@ -8,7 +8,7 @@ A brief introduction.
 
 **Credits:**
 
-- Arian Wood
+- Adrian Wood
 - Nicholas Carlini
 - Nicolas Papernot
 - Ram Shankar
