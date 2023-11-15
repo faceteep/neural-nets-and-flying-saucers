@@ -3,6 +3,7 @@
 ## Who is this guy?
 
 A brief introduction.
+
 ## The minds behind the research
 
 **Credits:**
@@ -14,10 +15,14 @@ A brief introduction.
 - Siva Kumar
 - Hyrum Anderson
 - Others
+
 # Flight Path
 
 Briefly go over the agenda and set the tone for the talk.
+
 # First Contact
+
+Get the audience caught up with prerequisite knowledge
 
 ## ML overview
 ## What are the benefits
