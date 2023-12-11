@@ -85,19 +85,21 @@ We now know how this technology is developed, we created a model and its ready f
 
 Show the app and its use-cases.
 
-### Demo: DNN Attacks
+Introduce first attack then go to the attack slide:
+
+### Demo: DNN Attacks (Go back to slides)
 
 Force a model to infer an arbitrary class by giving it a carefully crafted image (targeted adversarial image).
 
-### Demo: Trojan Models
+### Demo: Trojan Models (Go back to slides)
 
 Show what an infected model looks like (high level code review) and what it does. Link to Adrian's work for further details.
 
-### Demo: Supply Chain Attacks
+### Demo: Supply Chain Attacks (Go back to slides)
 
 Pulling infected model from Huggingface to use in UFO app demonstrating RCE on developer machine.
 
-### LLM Attacks
+### Demo: LLM Attacks (Go back to slides)
 
 Prompt injection in UFO Tracker page.
    
