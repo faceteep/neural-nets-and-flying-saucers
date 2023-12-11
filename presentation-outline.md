@@ -111,6 +111,14 @@ Algorithms:
 - 
 - 
 
+#### How would we solve the shape problem?
+
+- Supervised learning
+- large dataset of images and their labels (expected outputs)
+- Algorithm: Nueral Network
+
+(show video)
+
 *We'll now look at a model I trained for the research I'll be demoing. Specifically I want to demonstrate the exact ML dev ops data scientists follow when developing a new model.*
  
   ## Demo ML Dev OPs
