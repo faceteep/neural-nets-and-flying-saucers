@@ -119,6 +119,13 @@ Algorithms:
 
 (show video)
 
+- backpropagation
+- error => loss function
+- gradient
+- gradient decent (update model)
+
+
+
 *We'll now look at a model I trained for the research I'll be demoing. Specifically I want to demonstrate the exact ML dev ops data scientists follow when developing a new model.*
  
   ## Demo ML Dev OPs
