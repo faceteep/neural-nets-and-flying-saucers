@@ -183,7 +183,7 @@ Force a model to infer an arbitrary class by giving it a carefully crafted image
 
 - Try to get a different class by tweaking the image in photoshop
 - Show how difficult it is
-- 
+- Then show how we can use machine learning to create the adversarial image.
 
 ### Demo: Trojan Models (Go back to slides)
 
