@@ -50,7 +50,7 @@ Briefly go over the agenda and set the tone for the talk.
 *mention stats, val_loss, val_accuracy - very good model ready for production use*
 *These steps are the core of AI/ML development operations. This is in large part what datascientists get hired to do.
 
-# Unidentified Flaws and Oversights  (Is security breing overlooked?)
+# Unidentified Flaws and Oversights  (Is security being overlooked?)
 
 Now, with everyone racing to implement soplutions like this, security is easy to overlook.
 
@@ -61,61 +61,60 @@ Substantiate the previous section by highlighting some actual attacks and ongoin
 - Adrian's work on supply chain attacks
 - Phishing Attacks (Will Pearce)
 - LLMs (Dropbox at CAMLIS)
+- Adversarial examples
 - Others
 
 ## Industry Standards
+
+As a result, industry is catching up:
 
 - OWASP
 - MITRE
 - ML Framework (Adrian)
 
-## Demo: UFO Reporting System
+# Demos
 
 The rest of this talk will focus on addressing the following questions:
 
-- What kinds of attacks are possible?
+- What kinds of attacks are possible? (will focus on just a few attack vectors)
 - And what can be done about them?
 
-We now know how this technology is developed, but in order to answer these questions, we need to understand **how** the technology is used.
+We now know how this technology is developed, we created a model and its ready for use in production, but in order to answer these questions, we need to understand how the technology is **used**.
 
-**Introduce the app and its practical AI/ML use cases:**
+## UFO Reporting System & Huggingface (DEMO)
 
-- LLM use case (UFO Tracker)
-- DNN use case (File upload validation)
-- Getting models from Huggingface
+Show the app and its use-cases.
+
+### Demo: DNN Attacks
+
+Force a model to infer an arbitrary class by giving it a carefully crafted image (targeted adversarial image).
+
+### Demo: Trojan Models
+
+Show what an infected model looks like (high level code review) and what it does. Link to Adrian's work for further details.
+
+### Demo: Supply Chain Attacks
+
+Pulling infected model from Huggingface to use in UFO app demonstrating RCE on developer machine.
+
+### LLM Attacks
+
+Prompt injection in UFO Tracker page.
    
-## ML/AI OPs
-
-**Talk about the "SDLC" process for model development:**
-
-==Highlight attack vectors==
-## ML/AI Supply Chain
+## ML/AI Supply Chain (THIS SECTION MAY OR MAY NOT MAKE THE CUT) (DEMO)
 
 **Talk about how this app fits in an enterprise technology ecosystem :
 
 ==Highlight attack vectors==
 
-# Preparing for Invasion
-
-Now focus on each attack vector (show vector thumbnail as it was shown previously so audience knows where we're at).
-
-## Demo: Infected Models
-Show what an infected model looks like (high level code review) and what it does. Link to Adrian's work for further details.
-## Demo: Supply chain attacks
-Pulling infected model from Huggingface to use in UFO app demonstrating RCE on developer machine.
-## Adversarial DNN
-Model extraction in file validation feature in UFO app to bypass file upload controls.
-## Adversarial LLMs
-Prompt injection in UFO Tracker page.
-
-# Safe Landing: Mitigating Controls
+# Safe Landing (Mitigating Controls)
 
 **Scary, what can be done?**
 
 - Supply chain attacks
+- Adversarial LLM
 - Infected models
 - Adversarial DNN
-- Adversarial LLM
 
 # For the intrepid explorer
 
