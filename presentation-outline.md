@@ -47,7 +47,8 @@ Briefly go over the agenda and set the tone for the talk.
 - Self-Driving Cars: Machine learning algorithms help in making decisions for autonomous vehicles, including recognizing objects, predicting pedestrian behavior, and navigating.
 - Natural Language Processing (NLP): Used in applications like language translation (Google Translate), chatbots, and sentiment analysis.
 
-## But how these systems work
+
+## But how do these systems work
 
 ### Solving problems with traditional programming
 
@@ -62,6 +63,53 @@ Briefly go over the agenda and set the tone for the talk.
 - They could perhaps start by defining rules, like counting three sides for a triangle, look for round edges for a circle
 - Now what if the shapes were hand drawn? Is this a circle, or a square? 
 - They would quickly realize that writing a program, or a function, to perform this task is unfeasible due to the variabilty in hand drawn shapes
+- This is a problem tailor made for machine learning
+
+#### Types of Machine Learning
+
+- Becaused in traditional programming, we define the process (a function) to turn inputs into outputs.
+- But with machine learning, we feed the system inputs (and their outputs when available) to derive the process itself.
+- This process is known as a model, which can then be applied to new, unseen data to make predictions or assessments. 
+- Essentially, machine learning algorithms act as universal creators of functions.
+
+(show video of function guy)
+
+1) Supervised Learning
+
+Definition: The algorithm learns from labeled training data, trying to make predictions or decisions.
+
+Types:
+
+- Classification: Identify threats, such as distinguishing between harmful and harmless emails.
+- Regression: Assess risk levels, like predicting the likelihood of a system being vulnerable to a specific type of attack.
+
+Algorithms:
+
+- 
+- 
+
+2) Unsupervised Learning
+
+Definition: Deals with unlabeled data. The algorithm tries to learn the underlying patterns without any explicit instructions.
+
+Types:
+
+- Clustering: Automatically grouping similar types of network behavior to identify potential threats or anomalies, without predefined categories.
+- Dimensionality Reduction: Simplifying complex cybersecurity data (like logs with numerous variables) to more manageable and insightful formats, aiding in quicker threat detection.
+
+Algorithms:
+
+- 
+- 
+
+3) Reinforcement Learning
+
+- Imagine training an adaptive cybersecurity system. The algorithm learns through trial and error, akin to teaching a pet. It makes decisions (like blocking or allowing traffic), receives feedback (rewards for correct identifications and penalties for false positives/negatives), and adjusts its approach to improve accuracy in real-time threat response.
+
+Algorithms:
+
+- 
+- 
 
 *We'll now look at a model I trained for the research I'll be demoing. Specifically I want to demonstrate the exact ML dev ops data scientists follow when developing a new model.*
  
