@@ -28,6 +28,8 @@ Briefly go over the agenda and set the tone for the talk.
 
 **OLD**
 
+https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md
+
 - All the rage
 - Not new, timeline
 - Why is it all the rage now?
@@ -148,19 +150,19 @@ Now, with everyone racing to implement soplutions like this, security is easy to
 
 Substantiate the previous section by highlighting some actual attacks and ongoing research:
 
-- Adrian's work on supply chain attacks
-- Phishing Attacks (Will Pearce)
-- LLMs (Dropbox at CAMLIS)
-- Adversarial examples
-- Others
+https://atlas.mitre.org/studies/AML.CS0008/
+
+- Adrian's work on supply chain attacks (malicious models) - https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/
+- Phishing Attacks using adversarial examples (Will Pearce "Proof Point") - https://nvd.nist.gov/vuln/detail/CVE-2019-20634
+- LLM Prompt Injection (MathGPT) - https://atlas.mitre.org/studies/AML.CS0016
 
 ## Industry Standards
 
 As a result, industry is catching up:
 
-- OWASP
-- MITRE
-- ML Framework (Adrian)
+- OWASP Top 10 for LLMs - https://owasp.org/www-project-top-10-for-large-language-model-applications/
+- OWASP Top 10 for Machine Learning - https://owasp.org/www-project-machine-learning-security-top-10/
+- MITRE ATLAS
 
 # Demos
 
@@ -175,11 +177,13 @@ We now know how this technology is developed, we created a model and its ready f
 
 Show the app and its use-cases.
 
-Introduce first attack then go to the attack slide:
-
 ### Demo: DNN Attacks (Go back to slides)
 
 Force a model to infer an arbitrary class by giving it a carefully crafted image (targeted adversarial image).
+
+- Try to get a different class by tweaking the image in photoshop
+- Show how difficult it is
+- 
 
 ### Demo: Trojan Models (Go back to slides)
 
