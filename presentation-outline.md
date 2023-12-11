@@ -26,6 +26,8 @@ Briefly go over the agenda and set the tone for the talk.
 
 ## AI/ML Intro
 
+**OLD**
+
 - All the rage
 - Not new, timeline
 - Why is it all the rage now?
@@ -35,6 +37,31 @@ Briefly go over the agenda and set the tone for the talk.
   - Classification vs Regression problems
   - Training
   - Models (All gets saved in a model for future use)
+ 
+**NEW**
+
+## Applications
+
+- Image and Speech Recognition: Machine learning algorithms are extensively used for recognizing images and speech. For example, facial recognition in photos and voice assistants like Siri or Alexa.
+- Medical Diagnosis: AI and machine learning are used to identify diseases and assist in diagnosing based on medical imaging, genetic information, or other data.
+- Self-Driving Cars: Machine learning algorithms help in making decisions for autonomous vehicles, including recognizing objects, predicting pedestrian behavior, and navigating.
+- Natural Language Processing (NLP): Used in applications like language translation (Google Translate), chatbots, and sentiment analysis.
+
+## But how these systems work
+
+### Solving problems with traditional programming
+
+- imagine a developer is asked to write a program that can detect wether someone was going over the speed limit
+- they would probably come up with something like this.
+- Even without programming experience, it isn't difficult to see that the functions takes three inputs...
+- A straightforward programming task using a clear function/algorithm for deciding whether the are classified as true or false
+
+### Solving problems with Machine Learning
+
+- Now what if we asked the programmer to write a function that can classify any image as a circle, triangle, or square
+- They could perhaps start by defining rules, like counting three sides for a triangle, look for round edges for a circle
+- Now what if the shapes were hand drawn? Is this a circle, or a square? 
+- They would quickly realize that writing a program, or a function, to perform this task is unfeasible due to the variabilty in hand drawn shapes
 
 *We'll now look at a model I trained for the research I'll be demoing. Specifically I want to demonstrate the exact ML dev ops data scientists follow when developing a new model.*
  
