@@ -2,7 +2,7 @@
 
 # Introduction
 
-## Who is this guy?
+## Who am I?
 
 A brief introduction.
 
@@ -18,22 +18,43 @@ A brief introduction.
 - Hyrum Anderson
 - Others
 
-# Flight Path
+# Flight Path (Agenda)
 
 Briefly go over the agenda and set the tone for the talk.
 
-# First Contact
+# First Contact (ML Overview)
 
-Get the audience caught up with prerequisite knowledge
+## AI/ML Intro
 
-## ML overview
-## What are the benefits
-## Why it seems to be all the rage all of a sudden
+- All the rage
+- Not new, timeline
+- Why is it all the rage now?
+- So what is it, how does it work?
+  - It's all just math - Statistics, Linear Algebra
+  - Supervised vs unsupervised learning
+  - Classification vs Regression problems
+  - Training
+  - Models (All gets saved in a model for future use)
 
-# Unidentified Flaws and Oversights
+*We'll now look at a model I trained for the research I'll be demoing. Specifically I want to demonstrate the exact ML dev ops data scientists follow when developing a new model.*
+ 
+  ## Demo ML Dev OPs
+  - Data aquisition
+  - Preprocessing (key concepts)
+  - Training (key concepts)
+    - Trained a model from scratch
+    - Then used a pretrained model (Introduce concept of transferability)
+  - Fine tuning (key concepts)
+  - Inference, make decisions, ready for production
 
-With everyone racing to catch up with the rapid advancements and popularity of AI, security is easy to overlook.
-# Confirmed Sightings
+*mention stats, val_loss, val_accuracy - very good model ready for production use*
+*These steps are the core of AI/ML development operations. This is in large part what datascientists get hired to do.
+
+# Unidentified Flaws and Oversights  (Is security breing overlooked?)
+
+Now, with everyone racing to implement soplutions like this, security is easy to overlook.
+
+## Confirmed Sightings (Known Exploits)
 
 Substantiate the previous section by highlighting some actual attacks and ongoing research:
 
@@ -41,24 +62,28 @@ Substantiate the previous section by highlighting some actual attacks and ongoin
 - Phishing Attacks (Will Pearce)
 - LLMs (Dropbox at CAMLIS)
 - Others
-# Systems Check
 
-The rest of this talk will focus on answering the following questions:
+## Industry Standards
 
-- So where does security fit? 
-- What kinds of attacks are possible?
-- And what can we do about them?
+- OWASP
+- MITRE
+- ML Framework (Adrian)
 
-# Systems check...what system?
-
-In order to answer the previous questions, we need to understand how this technology is used.
 ## Demo: UFO Reporting System
 
-**Show how the technology is used in a sample application:**
+The rest of this talk will focus on addressing the following questions:
+
+- What kinds of attacks are possible?
+- And what can be done about them?
+
+We now know how this technology is developed, but in order to answer these questions, we need to understand **how** the technology is used.
+
+**Introduce the app and its practical AI/ML use cases:**
 
 - LLM use case (UFO Tracker)
 - DNN use case (File upload validation)
 - Getting models from Huggingface
+   
 ## ML/AI OPs
 
 **Talk about the "SDLC" process for model development:**
